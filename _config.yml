@@ -1,24 +1,27 @@
 # SITE CONFIGURATION
 baseurl: "/Type-on-Strap"
 url: "https://student-council-munsanmid.github.io/munsanmid.github.com/"
-title: Type on Strap # site's title
-description: "A website with blog posts and pages" # used by search engines
+title: 문산중학교 학생회 # site's title
+description: "문산중학교 학생회의 공식 웹페이지" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type on Strap # blog's title
+  title: 문산중학교 학생회 # blog's title
   avatar: assets/img/triangle.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
+  description: 문산중학교 학생회의 공식 웹페이지
+  disqus_shortname: munsanmid
+  katex: true
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>Change header text in <code>_config.yml</code> <br> to update this feature.</p>
+     <p>문산중학교 학생회</p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+   학생을 먼저 생각하는, 학생과 함께 만들어가는 학생회
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
@@ -29,7 +32,7 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: "sylhare"
+  github: "munsanmid"
   google_plus:
   instagram:
   keybase:
@@ -72,19 +75,19 @@ theme_settings:
       enabled: true
   
   # Localization strings
-  str_follow_on: "Follow on"
-  str_rss_follow: "Follow RSS feed"
-  str_share_on: "Share on"
-  str_add_to: "Add to"
-  str_email: "Email"
-  str_tweet: "Tweet"
-  str_pin_it: "Pin it"
-  str_next_post: "Next post"
-  str_previous_post: "Previous post"
-  str_next_page: "Next"
-  str_previous_page: "Prev"
-  str_continue_reading: "Continue reading"
-  str_javascript_required_disqus: "Please enable JavaScript to view comments."
+  str_follow_on: "구독하기"
+  str_rss_follow: "RSS 피드 구독하기"
+  str_share_on: "공유하기"
+  str_add_to: "추가하기"
+  str_email: "이메일"
+  str_tweet: "트윗"
+  str_pin_it: "고정하기"
+  str_next_post: "다음"
+  str_previous_post: "이전"
+  str_next_page: "다음"
+  str_previous_page: "이전"
+  str_continue_reading: "더 보기"
+  str_javascript_required_disqus: "덧글을 보기 전, 자바스크립트를 먼저 허용해주세요!"
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
